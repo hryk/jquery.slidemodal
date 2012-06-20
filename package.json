@@ -1,0 +1,26 @@
+{
+  "name": "jquery-slidemodal",
+  "title": "jQuery Slide Modal Dialog",
+  "description": "",
+  "version": "0.0.1",
+  "homepage": "",
+  "author": {
+    "name": "Hiroyuki Nakamura"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hryk/jquery-slidemodal.git"
+  },
+  "bugs": {
+    "url": ""
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "http://www.opensource.org/licenses/MIT"
+    },
+  ],
+  "dependencies": {},
+  "devDependencies": {},
+  "keywords": []
+}

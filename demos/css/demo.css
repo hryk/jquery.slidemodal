@@ -1,0 +1,56 @@
+body {
+  background: #fafafa;
+  height: auto;
+}
+
+header {
+  height: 100px;
+}
+header h1 {
+  font-size: 25px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  font-weight: 700;
+}
+header h2 {
+  font-size: 18px;
+  margin: 0px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  font-weight: 400;
+}
+
+h3 {
+  font-size: 20px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  font-weight: 400;
+}
+#main {
+  margin: 50px auto;
+}
+.item {
+  font-size: 13px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  padding: 15px 10px;
+}
+.item p {
+  line-height: 1.6em;
+}
+.item.bline {
+  border-top: 1px solid #268bd2;
+  border-bottom: 1px solid #268bd2;
+}
+.item.yline {
+  border-top: 1px solid #b58900;
+  border-bottom: 1px solid #b58900;
+}
+.item.gline {
+  border-top: 1px solid #859900;
+  border-bottom: 1px solid #859900;
+}
+footer {
+  font-size: 12px;
+}
+#modal {
+  display: none;
+}
