@@ -23,9 +23,38 @@
         <h4>Simple modal window</h4>
         <div class="highlight"><pre><span class="kd">var</span> <span class="nx">modal</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#modal&#39;</span><span class="p">).</span><span class="nx">slide_modal</span><span class="p">();</span>
 <span   class="nx">$</span><span class="p">(</span><span class="s1">&#39;.modal_open&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="nx">modal</span><span class="p">.</span><span class="nx">slide_modal</span><span class="p">(</span><span class="s1">&#39;open&#39;</span><span class="p">);</span> <span class="p">});</span>
-</pre>  </div>
+</pre>
+        </div>
         <a href="javascript:void(0)" class="modal_open">Run</a>
+        <h4>Specify width</h4>
+        <div class="highlight"><pre><span class="kd">var</span> <span class="nx">modal</span> <span class="o">=</span> <span class="nx">$</span><span class="p">(</span><span class="s1">&#39;#modal&#39;</span><span class="p">).</span><span class="nx">slide_modal</span><span class="p">({</span> <span class="nx">width</span><span class="o">:</span> <span class="mi">500</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.modal_open&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="nx">modal</span><span class="p">.</span><span class="nx">slide_modal</span><span class="p">(</span><span class="s1">&#39;open&#39;</span><span class="p">);</span> <span class="p">});</span>
+<span class="nx">$</span><span class="p">(</span><span class="s1">&#39;.modal_close&#39;</span><span class="p">).</span><span class="nx">click</span><span class="p">(</span><span class="kd">function</span><span class="p">(){</span> <span class="nx">modal</span><span class="p">.</span><span class="nx">slide_modal</span><span class="p">(</span><span class="s1">&#39;close&#39;</span><span class="p">);</span> <span class="p">});</span>
+</pre></div>
       </div>
+      <h3>Options &amp; Methods</h3>
+      <h4>Options</h4>
+      <ul>
+        <li>width</li>
+        <li>before_open</li>
+        <li>after_open</li>
+        <li>before_close</li>
+        <li>after_close</li>
+        <li>z-index</li>
+        <li>width</li>
+        <li>opacity</li>
+        <li>direction</li>
+        <li>modal_class</li>
+        <li>container</li>
+      </ul>
+      <h4>Methods</h4>
+      <ul>
+        <li>open</li>
+        <li>close</li>
+        <li>option</li>
+        <li>resize</li>
+        <li>destroy</li>
+      </ul>
       <h3>LICENSE</h3>
       <div class="item bline">
         <p>
@@ -56,11 +85,13 @@ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
     <div id="modal">
       <h3>Sample Modal Window</h3>
       <p>This is a sample modal window.</p>
+      <a href="javascript:void(0)" class="modal_close">Close</a>
     </div>
   </body>
   <script type="text/javascript">
-    var modal = $('#modal').slide_modal();
+    var modal = $('#modal').slide_modal({ width: 500 });
     $('.modal_open').click(function(){ modal.slide_modal('open'); });
+    $('.modal_close').click(function(){ modal.slide_modal('close'); });
   </script>
 </html>
 

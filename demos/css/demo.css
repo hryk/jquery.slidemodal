@@ -23,6 +23,11 @@ h3 {
   font-family: 'Averia Sans Libre', sans-serif;
   font-weight: 400;
 }
+h4 {
+  font-size: 16px;
+  font-family: 'Averia Sans Libre', sans-serif;
+  font-weight: 400;
+}
 #main {
   margin: 50px auto;
 }
