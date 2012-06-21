@@ -1,7 +1,7 @@
 jQuery Slide Modal Dialog
 -------------------------
 
-Modal dialog like Google Chrome's setting page.
+Modal dialog like (former) Google Chrome's setting page.
 
 ### Description
 
