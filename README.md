@@ -7,6 +7,7 @@ Modal dialog like (former) Google Chrome's setting page.
 
 ### Usage
 
+    # Simple Modal
     $('.modal\_window').slide_modal();
     $('.modal\_window').slide_modal('open');
 
